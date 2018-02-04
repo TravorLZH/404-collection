@@ -1,0 +1,43 @@
+body{
+	margin: 0;
+}
+header{
+	height: 130px;
+	display: block;
+	background-color: #EEEEEE;
+	padding: 1px;
+	text-align: center;
+}
+main{
+	display: block;
+	padding: 1px;
+	background-color: #FFFFFF;
+}
+ul.pages-404{
+	margin: 10px;
+	padding: 0;
+	display: block;
+	list-style-type: none;
+}
+.pages-404 a{
+	display: block;
+	box-shadow: 2px 2px 5px gray;
+	text-align: center;
+	padding: 10px;
+	background-color: #EEEEEE;
+	text-decoration: none;
+	margin-bottom: 10px;
+	color: inherit;
+}
+@media only screen and (min-width: 420px){
+	body{
+		background-color: #AAAAAA;
+	}
+	main{
+		position: absolute;
+		top: 132px;
+		bottom: 0;
+		left: 20%;
+		right: 20%;
+	}
+}
