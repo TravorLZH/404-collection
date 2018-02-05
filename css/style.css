@@ -19,8 +19,9 @@ ul.pages-404{
 	display: block;
 	list-style-type: none;
 }
-.pages-404 a{
+.pages-404 li a{
 	display: block;
+	width: 100%;
 	box-shadow: 2px 2px 5px gray;
 	text-align: center;
 	padding: 10px;
@@ -29,7 +30,14 @@ ul.pages-404{
 	margin-bottom: 10px;
 	color: inherit;
 }
+/* For Tablets and computers */
 @media only screen and (min-width: 420px){
+	.pages-404 li a{
+		width: 50%;
+	}
+	.pages-404 li a:hover{
+		background-color: #CCCCCC;
+	}
 	body{
 		background-color: #AAAAAA;
 	}
