@@ -32,19 +32,10 @@ ul.pages-404{
 /* For Tablets and computers */
 @media only screen and (min-width: 420px){
 	.pages-404 li a{
-		width: 50%;
+		display: inline-block;
+		float: left;
 	}
 	.pages-404 li a:hover{
 		background-color: #CCCCCC;
-	}
-	body{
-		background-color: #AAAAAA;
-	}
-	main{
-		position: absolute;
-		top: 132px;
-		bottom: 0;
-		left: 20%;
-		right: 20%;
 	}
 }
