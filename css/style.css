@@ -21,7 +21,6 @@ ul.pages-404{
 }
 .pages-404 li a{
 	display: block;
-	width: 100%;
 	box-shadow: 2px 2px 5px gray;
 	text-align: center;
 	padding: 10px;
